@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin Dashboard</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="products.js"></script>
+</head>
+<body class="bg-gray-100 p-6">
+
+<h1 class="text-3xl font-bold mb-6">📦 Admin Dashboard</h1>
+
+<div class="bg-white p-6 rounded shadow">
+  <h2 class="text-xl font-semibold mb-4">Product List</h2>
+
+  <table class="w-full border">
+    <tr class="bg-gray-200">
+      <th class="p-2">ID</th>
+      <th>Name</th>
+      <th>Price</th>
+    </tr>
+
+    <tbody id="productTable"></tbody>
+  </table>
+</div>
+
+<script>
+  const table = document.getElementById("productTable");
+  products.forEach(p => {
+    table.innerHTML += `
+      <tr class="border">
+        <td class="p-2">${p.id}</td>
+        <td>${p.name}</td>
+        <td>₹${p.price}</td>
+      </tr>`;
+  });
+</script>
+
+</body>
+</html>

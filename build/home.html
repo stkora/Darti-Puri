@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>E-Commerce Home</title>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+<!-- ================= HEADER ================= -->
+<header class="bg-white shadow sticky top-0 z-50">
+  <div class="max-w-7xl mx-auto flex items-center justify-between p-4">
+    <h1 class="text-2xl font-bold text-blue-600">ShopEasy</h1>
+
+    <input
+      type="text"
+      placeholder="Search products..."
+      class="w-1/2 px-4 py-2 border rounded-lg hidden md:block"
+    />
+
+    <div class="space-x-4">
+      <button class="font-medium"><a    href="./login.html">Login</button><a/>
+      <button class="bg-blue-600 text-white px-4 py-2 rounded-lg">
+        Cart 🛒
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ================= HERO SECTION ================= -->
+<section class="bg-blue-600 text-white">
+  <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-8 p-8 items-center">
+    <div>
+      <h2 class="text-4xl font-bold mb-4">
+        Best Deals on Electronics
+      </h2>
+      <p class="mb-6">
+        Get amazing discounts on latest gadgets & accessories.
+      </p>
+      <button class="bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold">
+        Shop Now
+      </button>
+    </div>
+    <img
+      src="https://via.placeholder.com/500"
+      alt="Hero Product"
+      class="rounded-lg"
+    />
+  </div>
+</section>
+
+<!-- ================= CATEGORIES ================= -->
+<section class="max-w-7xl mx-auto p-6">
+  <h3 class="text-2xl font-bold mb-4">Shop by Category</h3>
+  <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+    <div class="bg-white p-4 rounded shadow text-center">📱 Mobiles</div>
+    <div class="bg-white p-4 rounded shadow text-center">💻 Laptops</div>
+    <div class="bg-white p-4 rounded shadow text-center">👕 Fashion</div>
+    <div class="bg-white p-4 rounded shadow text-center">🏠 Home</div>
+  </div>
+</section>
+
+<!-- ================= PRODUCTS ================= -->
+<section class="max-w-7xl mx-auto p-6">
+  <h3 class="text-2xl font-bold mb-6">Featured Products</h3>
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+    
+    <!-- Product Card -->
+    <div class="bg-white p-4 rounded shadow hover:shadow-lg transition">
+      <img src="https://via.placeholder.com/200" class="mx-auto mb-4"/>
+      <h4 class="font-semibold">Smartphone</h4>
+      <p class="text-gray-600">₹15,999</p>
+      <button class="mt-3 w-full bg-blue-600 text-white py-2 rounded">
+        Add to Cart
+      </button>
+    </div>
+
+    <div class="bg-white p-4 rounded shadow hover:shadow-lg transition">
+      <img src="https://via.placeholder.com/200" class="mx-auto mb-4"/>
+      <h4 class="font-semibold">Laptop</h4>
+      <p class="text-gray-600">₹55,999</p>
+      <button class="mt-3 w-full bg-blue-600 text-white py-2 rounded">
+        Add to Cart
+      </button>
+    </div>
+
+    <div class="bg-white p-4 rounded shadow hover:shadow-lg transition">
+      <img src="https://via.placeholder.com/200" class="mx-auto mb-4"/>
+      <h4 class="font-semibold">Headphones</h4>
+      <p class="text-gray-600">₹2,999</p>
+      <button class="mt-3 w-full bg-blue-600 text-white py-2 rounded">
+        Add to Cart
+      </button>
+    </div>
+
+    <div class="bg-white p-4 rounded shadow hover:shadow-lg transition">
+      <img src="https://via.placeholder.com/200" class="mx-auto mb-4"/>
+      <h4 class="font-semibold">Smart Watch</h4>
+      <p class="text-gray-600">₹4,999</p>
+      <button class="mt-3 w-full bg-blue-600 text-white py-2 rounded">
+        Add to Cart
+      </button>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="bg-gray-900 text-gray-300 mt-10">
+  <div class="max-w-7xl mx-auto p-6 grid md:grid-cols-3 gap-6">
+    <div>
+      <h4 class="font-bold mb-2">ShopEasy</h4>
+      <p>India’s best online shopping platform.</p>
+    </div>
+    <div>
+      <h4 class="font-bold mb-2">Quick Links</h4>
+      <ul>
+        <li>About</li>
+        <li>Contact</li>
+        <li>Privacy Policy</li>
+      </ul>
+    </div>
+    <div>
+      <h4 class="font-bold mb-2">Follow Us</h4>
+      <p>Facebook | Instagram | Twitter</p>
+    </div>
+  </div>
+  <p class="text-center py-4 bg-gray-800">
+    © 2025 ShopEasy. All rights reserved.
+  </p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
