@@ -106,7 +106,7 @@ Contributions are welcome!
   
 
 
-  <a href="https://merry-gingersnap-ff274f.netlify.app/"><strong>➥ Live Demo</strong></a>
+  <a href="https://ddarti-puri.netlify.app/"><strong>➥ Live Demo</strong></a>
 
 </div>
 
@@ -115,6 +115,7 @@ Contributions are welcome!
 ### Demo Screeshots
 
 ![Unigine Desktop Demo](./img/Screenshot%202025-12-21%20190033.png "Desktop Demo")
+
 
 
 
